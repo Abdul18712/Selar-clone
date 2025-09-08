@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;   /* keeps it from stretching too wide */
+  margin: 0 auto;      /* centers horizontally */
+  padding: 0 20px;     /* adds breathing room */
+}
+
+.footer {
+  background: #f8f8f8;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer > div {
+  flex: 1 1 200px; /* grows/shrinks, min width 200px */
+  margin: 10px;
+}
+
+
+.Home-Button img {
+  width: 120px;   /* pick any size (e.g., 80px, 100px) */
+  height: auto;   /* keeps proportions */
+}
+
+.Navbar ul {
+  list-style: none;       /* remove bullets */
+  display: flex;          /* make list items horizontal */
+  gap: 20px;              /* space between items */
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* logo left, nav right */
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.register {
+  display: flex;
+  flex-direction: column;   /* stack everything vertically */
+  align-items: center;      /* center horizontally */
+  text-align: center;       /* center text */
+  padding: 60px 20px;
+  background-color: rgb(90, 11, 77);
+  color: white;
+}
+
+.register-text {
+  max-width: 700px;         /* keeps text readable */
+}
+
+.register-button {
+  background-color: white;
+  color: rgb(90, 11, 77);
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;         /* space before the image */
+}
+
+.register-button:hover {
+  background-color: #372bcb;
+}
+
+.Example-image {
+  margin-top: 40px;         /* space below button */
+}
+
+.Example-image img {
+  max-width: 100%;
+  height: auto;
+}
